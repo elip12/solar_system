@@ -19,12 +19,13 @@
 
 // unit = the standard unit of distance
 // all widths and distances are in terms of unit
-// unit is
-var unit = .0005
+var unit = .001
 
-// time is the rate at which time passes in this universe
+// time is the rate at which time passes in this universe.
 // in our world, time moves at roughly one second per second
-var time = 1
+var time = 100
+
+// eventually, unit and time will be controlled by sliders.
 
 // each body is an object with features
 // diameter is in terms of unit, and is 
@@ -41,9 +42,9 @@ var time = 1
 // distances from the sun are scaled by a factor of .001
 var sun = 
 {
-    diameter: 200000.0 * unit, //this is not accurate
-    top: window.innerHeight/2.0 - (200000.0/2.0 * unit),
-    left: window.innerWidth/2.0 - (200000.0/2.0 * unit),
+    diameter: 100000.0 * unit, //this is not accurate
+    top: window.innerHeight/2.0 - (100000.0/2.0 * unit),
+    left: window.innerWidth/2.0 - (100000.0/2.0 * unit),
     eq: null,
     rot_period: -3000,
     id: 'sun'
@@ -99,7 +100,7 @@ var saturn =
     top: window.innerHeight/2.0 - (120536.0/2.0 * unit),
     left: window.innerWidth/2.0 - (120536.0/2.0 * unit),
     eq: [1433.5 * 10**3 * unit, 1433.5 * 10**3 * unit, 10747.0],
-    rot_period: 0,//10.7,
+    rot_period: 10.7,
     id: 'saturn'
 }
 var uranus = 
