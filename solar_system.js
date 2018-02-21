@@ -23,7 +23,7 @@ var unit = .001
 
 // time is the rate at which time passes in this universe.
 // in our world, time moves at roughly one second per second
-var time = 100
+var time = 10
 
 // eventually, unit and time will be controlled by sliders.
 
