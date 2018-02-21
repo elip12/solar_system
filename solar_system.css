@@ -1,0 +1,52 @@
+body
+{
+    background: url("background.jpeg");
+    background-size: cover;
+    color: white;
+}
+
+h1
+{
+    text-align: center;
+}
+
+#sun
+{
+    position: absolute;
+}
+
+#mercury
+{
+    position: absolute;
+}
+
+#venus
+{
+    position: absolute;
+}
+
+#earth
+{
+    position: absolute;
+}
+
+#mars
+{
+    position: absolute;
+}
+#jupiter
+{
+    position: absolute;
+}
+#saturn
+{
+    position: absolute;
+}
+#uranus
+{
+    position: absolute;
+}
+#neptune
+{
+    position: absolute;
+}
