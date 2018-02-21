@@ -10,3 +10,7 @@ This presents an issue because Jupiter is now larger than the sun.
 I did this project to increase my skill with web apps and JS. I opted to use pure JavaScript for everything, because I want to get good with plain JS before focusing on add-ons. 
 
 If you want to see how it looks for real, simply clone the repo then open the html file locally in a browser. I like using chrome on full screen mode since you don't get the search bar and can use the entire screen to see the orrery.
+
+To change the time or scale, edit the unit or time variables in the solar_system.js.
+
+Note: I do not own the rights to any of these pictures. They were all copied from google images.
