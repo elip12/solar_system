@@ -4,32 +4,30 @@ body
     background-size: cover;
     color: white;
 }
-
+/*
+    Eli Pandolfo
+    CSS for displaying model solar system
+*/
 h1
 {
     text-align: center;
 }
-
 #sun
 {
     position: absolute;
 }
-
 #mercury
 {
     position: absolute;
 }
-
 #venus
 {
     position: absolute;
 }
-
 #earth
 {
     position: absolute;
 }
-
 #mars
 {
     position: absolute;
@@ -49,4 +47,24 @@ h1
 #neptune
 {
     position: absolute;
+}
+#time_slider
+{
+    position: absolute;
+    bottom: 30px;
+    right: 250px;
+    width: 200px;
+}
+#size_slider
+{
+    position: absolute;
+    bottom: 30px;
+    left: 250px;
+    width: 200px;
+}
+.label
+{
+    color: white;
+    position: absolute;
+    bottom: 30px;
 }

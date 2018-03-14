@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!--    Eli Pandolfo
+        HTML to display model solar system -->
 <html lang="en-US">
     <head>
         <link rel="stylesheet" type="text/css" href="solar_system.css">
@@ -9,13 +11,13 @@
     </head>
     <body>
         <div>
-            <!-- h1>
+            <h1>
                 Interactive Solar System Model
-            </h1 -->
+            </h1>
         </div>
-        <div id="container">
+        <div class="container">
             <div>
-                <img id="sun" onload="init_sun()" src="pngs/sun.png">
+                <img id="sun" onload="plot_path(sun)" src="pngs/sun.png">
             </div>
             <div>
                 <img id="mercury" onload="plot_path(mercury)" src="pngs/mercury.png">
@@ -24,7 +26,7 @@
                 <img id="venus" onload="plot_path(venus)" src="pngs/venus.png">
             </div>
             <div>
-                <img id="earth" onload="plot_path(earth)"  src="pngs/earth.png">
+                <img id="earth" onload="plot_path(earth)" src="pngs/earth.png">
             </div>
             <div>
                 <img id="mars" onload="plot_path(mars)" src="pngs/mars.png">
@@ -41,6 +43,13 @@
             <div>
                 <img id="neptune" onload="plot_path(neptune)" src="pngs/neptune.png">
             </div>
+                <input id="size_slider" type="range" min="10" max="200" value="10" 
+                    class="range" oninput="resize()">
+                <label class="label" for="size_slider" style="left: 475px;">Size</label>
+
+                <label class="label" for="time_slider" style="right: 475px;">Time</label>                
+                <input id="time_slider" type="range" min="0" max="1000" value="1" 
+                    class="range" oninput="retime()">
         </div>
     </body>
 </html>
