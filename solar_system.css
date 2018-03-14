@@ -54,7 +54,7 @@ h1
     bottom: 30px;
     right: 250px;
     width: 200px;
-    color: white;
+    background: #e2e2e2;
 }
 #size_slider
 {
@@ -62,7 +62,7 @@ h1
     bottom: 30px;
     left: 250px;
     width: 200px;
-    color: white;
+    background: #e2e2e2;
 }
 .label
 {
